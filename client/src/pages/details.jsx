@@ -11,8 +11,7 @@ const Details = () => {
       <div className="flex h-screen  justify-center ">
         <div className="flex justify-center     items-center flex-col gap-2">
           <p>Ölkenin Adı:{" " + Countr1.country}</p>
-          <p>Ölkenin Paytaxdı: {" " + Countr1.cupital}</p>
-          <img src="" alt="" />
+          <p>Ölkenin Paytaxdı: {" " + Countr1.capital}</p>
         </div>
       </div>
     </>

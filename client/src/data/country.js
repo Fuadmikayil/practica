@@ -2,21 +2,21 @@ export const Country = [
     {
         id:1,
         country:"Azerbaycan",
-        cupital:"Bakı"
+        capital:"Bakı"
     },
     {
         id:2,
         country:"Türkiye",
-        cupital:"Ankara"
+        capital:"Ankara"
     },
     {
         id:3,
         country:"İngiltere",
-        cupital:"London"
+        capital:"London"
     },
     {
         id:4,
         country:"Amerka",
-        cupital:"New-york"
+        capital:"New-york"
     }
 ]

@@ -4,6 +4,10 @@ import { useNavigate } from "react-router-dom";
 const Hero = () => {
   const navigate = useNavigate();
   function Funcid(item) {
+    const e = item.target
+    
+    const element = e.querySelector(`option[value="${item.target.value}"]`)
+    console.log(element.id)
     navigate(item.target.value);
   }
   return (
@@ -12,7 +16,7 @@ const Hero = () => {
         <option>Ölkeni seç</option>
         {Country.map((item, key) => {
           return (
-            <option id={item.id} key={key}>
+            <option id={item.id} key={key} value={item.country}>
               {item.country}
             </option>
           );
